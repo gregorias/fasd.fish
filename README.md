@@ -1,23 +1,27 @@
-# `fasd` (`fisher` plugin for `fish-shell`)
+# fasd.fish
 
-Plugin for [`fish-shell`](https://fishshell.com/) to integrate [`fasd`](https://github.com/clvv/fasd) into efficiency-seeking workflows:
+A plugin for [fish] to integrate [fasd] into efficiency-seeking workflows:
 
-> Fasd (pronounced similar to "fast") is a command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells. It is inspired by tools like autojump, z and v. Fasd keeps track of files and directories you have accessed, so that you can quickly reference them in the command line.
+> Fasd (pronounced similar to "fast") is a command-line productivity booster.
+> Fasd offers quick access to files and directories for POSIX shells. It is
+> inspired by tools like autojump, z and v. Fasd keeps track of files and
+> directories you have accessed, so that you can quickly reference them in the
+> command line.
 
-## Prerequisite
+## Prerequisites
 
-You will need [`fasd`](https://github.com/clvv/fasd). On macOS, install through [`homebrew`](https://brew.sh):
+You need [fasd]. On macOS, install with [Homebrew][homebrew]:
 
 ```fish
-$ brew install fasd
+brew install fasd
 ```
 
-## Install
+## Installation
 
 With [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```fish
-$ fisher install fishgretel/fasd
+fisher install fishgretel/fasd
 ```
 
 ## Usage
@@ -37,7 +41,7 @@ alias zz="fasd_cd -d -i" # cd with interactive selection
 
 Let's try one out:
 
-```
+```shell
 $ a fish
 1.458      /Users/tom/.dotfiles/.config/fish/config.fish
 2.349      /Users/tom/Sync/code/pycopy/bin/activate.fish
@@ -47,4 +51,8 @@ $ a fish
 12         /Users/tom/.config/fish
 ```
 
-For more info, please check out the complete [fasd documentation][fasd].
+For more info, check out the complete [fasd documentation][fasd].
+
+[homebrew]: https://brew.sh
+[fasd]: https://github.com/clvv/fasd
+[fish]: https://fishshell.com/
