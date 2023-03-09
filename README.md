@@ -1,4 +1,4 @@
-# fasd.fish
+# 🐟 fasd.fish
 
 A plugin for [fish] to integrate [fasd] into efficiency-seeking workflows:
 
