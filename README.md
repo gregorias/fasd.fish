@@ -21,7 +21,7 @@ brew install fasd
 With [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```fish
-fisher install fishgretel/fasd
+fisher install gregorias/fasd.fish
 ```
 
 ## Usage
