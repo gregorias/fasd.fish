@@ -1,3 +1,5 @@
+fasd_setup
+
 @test "f works" (
     f foo
 ) $status -eq 0

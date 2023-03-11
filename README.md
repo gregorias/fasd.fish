@@ -18,10 +18,16 @@ brew install fasd
 
 ## Installation
 
-With [`fisher`](https://github.com/jorgebucaran/fisher):
+Install with [`fisher`](https://github.com/jorgebucaran/fisher):
 
 ```fish
 fisher install gregorias/fasd.fish
+```
+
+Add the setup command to your `config.fish`:
+
+```fish
+fasd_setup
 ```
 
 ## Usage
